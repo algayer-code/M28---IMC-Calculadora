@@ -1,0 +1,32 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.resultado {
+    animation: fadeIn 0.6s ease-in-out;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+.imagem {
+    margin-top: 1rem;
+    width: 120px;
+    height: 250px;
+}
