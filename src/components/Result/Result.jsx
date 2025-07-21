@@ -8,7 +8,7 @@ function Result({ imcData }) {
         if (classificacao === 'Abaixo do peso') return '/imagens/abaixo-peso.png';
         if (classificacao === 'Peso normal') return '/imagens/peso-normal.png';
         if (classificacao === 'Sobrepeso') return '/imagens/sobrepeso.png';
-        return '/imagens/obesidade.png'; // para todas as obesidades
+        return '/imagens/obesidade.png';
     };
 
     return (
